@@ -6,7 +6,7 @@ class kadai2_6 {
 		String strin;
 
 		while (true) {
-			System.out.println("西暦を入力してください　※来るかわからないけど5000年まで");				
+			System.out.println("西暦を入力してください　※来るかわからないけど5000年まで");
 			strin = scan.next();
 			// 数値チェック
 			if (chknum(strin) == false){
