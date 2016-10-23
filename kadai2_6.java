@@ -9,7 +9,7 @@ class kadai2_6 {
 			System.out.println("西暦を入力してください　※来るかわからないけど5000年まで");
 			strin = scan.next();
 			// 数値チェック
-			if (chknum(strin) == false){
+			if (!chknum(strin)){
 				System.err.println("不正な数値です。もう一度入力してください");				
 			}
 			else {
